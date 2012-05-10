@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Chinese:</b>
+  <%= @pair.chinese %>
+</p>
+
+<p>
+  <b>English:</b>
+  <%= @pair.english %>
+</p>
+
+<p>
+  <b>Japanese:</b>
+  <%= @pair.japanese %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @pair.text_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_pair_path(@pair) %> |
+<%= link_to 'Back', pairs_path %>
