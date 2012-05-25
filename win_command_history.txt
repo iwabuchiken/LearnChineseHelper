@@ -2,3 +2,6 @@ rails generate migration add_url_to_items url:string
 
 rake db:migrate
 
+#20120525_160318
+bundle exec rake db:migrate
+

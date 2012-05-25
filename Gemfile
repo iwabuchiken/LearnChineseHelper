@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 # source 'https://rubygems.org'
 
-gem 'rails', '3.2.3'
+gem 'rails', '3.2.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -24,7 +24,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+# gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails', '1.0.19'
 
 group :production do
   gem 'pg', '0.12.2'
